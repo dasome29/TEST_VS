@@ -17,38 +17,57 @@ private:
 
     T *ptr;
 
+    T *get_ptr(){
+        return ptr;
+    }
+
 public:
     explicit VSPtr(T *p = NULL) {
         ptr = p;
+        cout << "Nuevo" << endl;
     }
 
     VSPtr(const VSPtr &p) {
-        ptr = p;
+        ptr = p.get_ptr();
+        cout << "Copia" << endl;
     }
 
     ~VSPtr() {
         delete (ptr);
     }
 
-    T &operator*() {
-
+    T *operator*() {
+        return ptr;
     }
 
     T &operator&() {
-
+        return *ptr;
     }
 
-    VSPtr &operator=(T *element) noexcept {
-
+    VSPtr &operator =(VSPtr &element) {
+        cout << "Pointer to Pointer" << endl;
+        ptr = element.get_ptr();
+    }
+    VSPtr &operator =(T element) {
+        cout << "Pointer to Data" << endl;
+        ptr = new T(element);
     }
 
-    void *operator new(size_t size) {
 
+    static void *operator new(size_t size) {
+        void * p = malloc(size);
+        return p;
     }
 
-    void operator delete(void *p) {
-
+    static void operator delete(void *p) {
+        free(p);
     }
+
+//    static VSPtr New(){
+//        VSPtr p1;
+//        VSPtr p2 = p1;
+//        return p2;
+//    }
 
 
 };

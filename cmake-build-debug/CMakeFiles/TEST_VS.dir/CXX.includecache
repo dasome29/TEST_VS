@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/david/HACKERPLACE/TEST_VS/VSPtr.cpp
+VSPtr.h
+/home/david/HACKERPLACE/TEST_VS/VSPtr.h
+
+/home/david/HACKERPLACE/TEST_VS/VSPtr.h
+iostream
+-
+bits/stdc++.h
+-
+
 /home/david/HACKERPLACE/TEST_VS/main.cpp
 iostream
 -
+VSPtr.h
+/home/david/HACKERPLACE/TEST_VS/VSPtr.h
 

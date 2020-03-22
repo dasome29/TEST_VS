@@ -12,10 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8db4a305-22b8-40fe-a169-7a387a328250" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VSPtr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VSPtr.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VSPtr.h" beforeDir="false" afterPath="$PROJECT_DIR$/VSPtr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TEST_VS" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TEST_VS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="TEST_VS" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -59,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584668272802</updated>
       <workItem from="1584668274057" duration="6222000" />
-      <workItem from="1584719023657" duration="1880000" />
+      <workItem from="1584719023657" duration="20920000" />
     </task>
     <servers />
   </component>
@@ -71,5 +74,25 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1224" y="242" width="454" height="621" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1584675594469" />
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1584861621366">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1584861621366" />
+    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1584861621366">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1584861621366" />
+    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1584861621365">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1584861621365" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1584861621366">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1584861621366" />
+    <state x="1120" y="254" key="run.anything.popup" timestamp="1584750500619">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1120" y="254" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584750500619" />
   </component>
 </project>
